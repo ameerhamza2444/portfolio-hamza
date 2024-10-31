@@ -1,0 +1,215 @@
+@media (max-width: 768px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .nav-item {
+        display: none;
+    }
+
+
+    .logo {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+
+
+    .hero-sub {
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+    }
+
+    .hero-left {
+        text-align: center;
+    }
+
+    .hero-banner {
+        margin-top: 20px;
+        width: 100%;
+        height: 50%;
+
+    }
+
+    .hero-left p {
+        width: 100vh;
+        font-size: large;
+    }
+
+    .sub-about {
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+    }
+
+    .about-img img {
+        margin-left: -60px;
+    }
+
+    .card {
+        flex-direction: column;
+        width: 76vw;
+        align-items: center;
+        text-align: center;
+    }
+
+    .card-right p {
+        width: 80vw;
+
+    }
+
+    #ab h1 {
+        margin-left: -24px;
+    }
+
+    #xp h1 {
+        margin-left: 10px;
+        margin-top: 20px;
+
+    }
+
+    /* exp left right dono*/
+
+    #xp .sub-exp {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #xp .exp-left {
+        width: 100%;
+        text-align: center;
+    }
+
+    #xp .exp-cards {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        height: 48vh;
+        width: 75vw;
+        grid-template-rows: auto;
+        margin-top: 45px;
+        gap: 10px;
+        margin-bottom: 20px;
+        margin-left: -10px;
+    }
+
+    #xp .exp-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #xp .exp-right {
+        width: 100%;
+    }
+
+    #xp .job-cards {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    #xp .job-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-right: 30px;
+        margin-left: -44%;
+        width: 85vw;
+    }
+
+    #xp .job-card-left,
+    #xp .job-card-right {
+        width: 100%;
+    }
+
+    /* project k cards */
+
+    #pr .pro-cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px; 
+    }
+
+    #pr .pro-card {
+        width: 100%; 
+        max-width: 400px; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 50vh;
+        text-align: center;
+    }
+
+    #pr .top img {
+        width: 100%; 
+        height: auto; /* Maintain image aspect ratio */
+    }
+   
+     #pr .btm {
+        display: flex;
+        justify-content: center;
+        gap: 16px;
+        margin-top: -10px; 
+    }
+
+    #pr .btm .node {
+        padding: 5px 10px;
+        border-radius: 20px;
+    }
+
+    /* footer sec */
+
+    
+    .footer {
+        padding: 20px;
+        text-align: center;
+       height: 40vh;
+    }
+
+    
+    .sub-footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    
+    .left-footer h1 {
+        font-size: 1.4 rem;
+        margin-bottom: 8px;
+    }
+
+    .left-footer p {
+        font-size: 1.4rem;
+        margin-bottom: 15px;
+    }
+
+    
+    .right-footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+   
+    .right-footer .link {
+        display: flex;
+        align-items: center;
+        height: -30vh;
+        
+    }
+
+    
+    .right-footer .link .icon {
+        margin-right: 5px;
+        font-size: 1.4rem;
+    }
+}
+
+
+

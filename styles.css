@@ -1,0 +1,530 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.navbar {
+    background-color: #19376D;
+    color: white;
+    height: 10vh;
+    position: sticky;
+    top: 0;
+    box-shadow: 0px 1px 10px #0c1936;
+    z-index: 50;
+}
+
+.sub-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    width: 90vw;
+    margin: 0px auto;
+}
+
+
+.nav-item {
+    display: flex;
+
+}
+
+.nav-item li {
+    list-style: none;
+    font-family: "Balsamiq Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.nav-item li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 0px 25px;
+}
+
+.logo {
+    font-size: 22px;
+    font-family: "Balsamiq Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.bars {
+    display: none;
+}
+
+.hero-btn {
+    background-color: #576cbc;
+    color: white;
+    padding: 5px 8px;
+    border-radius: 18px;
+    font-size: 16px;
+    margin: 15px 0px;
+    font-weight: bold;
+    border: 2px solid #576cbc;
+    font-family: "Balsamiq Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    cursor: pointer;
+}
+
+.hero-sub {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80vw;
+    margin: 0px auto;
+    padding-bottom: 40px;
+}
+
+.hero-banner {
+    height: 50vh;
+    width: 25vw;
+    margin-top: 40px;
+}
+
+.hero-section {
+    background: linear-gradient(135deg, #0D1321, #384965, #0D1321);
+}
+
+.hero-left {
+    padding-top: 45px;
+}
+
+.hero-left h1 {
+    font-size: 45px;
+    margin: 10px -3px;
+    font-family: "Balsamiq Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+
+
+}
+
+.hero-left p {
+    font-size: 20px;
+    line-height: 150%;
+    font-family: "Balsamiq Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+
+.hero-section,
+.navbar,
+.about {
+    background: linear-gradient(90deg, #091124, #436192, #0c1427);
+}
+
+.sub-about {
+    background-color: black;
+    width: 80vw;
+    margin: 0px auto;
+    border-radius: 12px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sub-about-left .desc h1 {
+    padding: 30px 60px;
+    font-family: "Balsamiq Sans", sans-serif;
+}
+
+.sub-about-left {
+    width: 50%;
+}
+
+.sub-about-right {
+    width: 50%;
+}
+
+
+.about-img img {
+    height: 300px;
+}
+
+.card {
+    display: flex;
+    padding: 15px 12px;
+    border-radius: 10px;
+    margin: 10px 0px;
+}
+
+.card:hover {
+    background: linear-gradient(90deg, #ffffff46, #000000);
+
+}
+
+.card-right h3 {
+    font-family: "Balsamiq Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin: 10px 0px;
+}
+
+.card-right {
+    font-family: "Balsamiq Sans", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.cards {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    flex-direction: column;
+
+    justify-content: center;
+}
+
+.projects {
+    background: linear-gradient(90deg, #091124, #436192, #0c1427);
+}
+
+.pro-cards {
+    width: 80vw;
+    margin: 0px auto;
+    padding: 40px 0px;
+    display: flex;
+    justify-content: space-evenly;
+    
+
+}
+
+.pro-card {
+    width: 23vw;
+    height: 57vh;
+    background-color: rgb(17, 29, 39);
+    border-radius: 12px;
+    
+
+}
+.pro-card h1{
+    font-family: "Balsamiq Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: x-large;
+    margin-bottom: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.pro-card p{
+    font-family: "Balsamiq Sans", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+a {
+    text-decoration: none;
+}
+
+.pro-card .top {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+
+}
+
+.pro-card .mid {
+    color: white;
+    padding: 0px 12px;
+
+}
+
+.pro-card .btm {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0px;
+}
+
+.pro-card .btm .node {
+    background-color: #384965;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.footer {
+    background-color: #19376D;
+    color: white;
+    box-shadow: 0px 1px 10px #0c1936;
+    height: 25vh;
+
+}
+
+.sub-footer {
+    width: 80vw;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+}
+
+.left-footer h1 {
+    font-size: 40px;
+    font-family: "Balsamiq Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.left-footer p {
+    font-size: 22px;
+    font-family: "Balsamiq Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.link {
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+
+}
+
+.link .icon {
+    font-size: 26px;
+}
+
+.link p {
+    font-size: 17px;
+    font-family: "Balsamiq Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.experience {
+    background: linear-gradient(90deg, #091124, #436192, #0c1427);
+    padding: 40px 0px;
+    color: white;
+}
+
+.sub-exp {
+    width: 70vw;
+    margin: 0px auto;
+    display: flex;
+}
+
+.exp-cards {
+    margin: 20px 0px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-row-gap: 35px;
+}
+
+.exp-card {
+    background-color: rgb(17, 29, 39);
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.exp-card p {
+    position: absolute;
+    bottom: -25px;
+    font-family: "Balsamiq Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.exp-left {
+    width: 50%;
+
+}
+
+.exp-left h1 {
+    font-family: "Balsamiq Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.exp-card img {
+    width: 50px;
+    height: 50px;
+}
+.job-card{
+    display: flex;
+    padding: 15px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    
+}
+.job-card:hover{
+    background: linear-gradient(90deg,#091124 , #436192);
+}
+.job-card-right h2{
+    font-family: "Balsamiq Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.job-card-right p{
+    font-family: "Balsamiq Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 15px 0px;
+}
+.job-cards{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-left: 70px;
+   
+}
+.job-card-left{
+    padding: 10px 20px;
+    
+}
+
+.landing-page{
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+
+
+
+/* Custom Modal Styles */
+.custom-modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); 
+    overflow: auto;
+}
+
+.custom-modal-content {
+    background: linear-gradient(90deg, #091124, #436192, #0c1427); 
+    margin: 5% auto;
+    padding: 20px 30px;
+    width: 90%;
+    max-width: 450px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    animation: fadeIn 0.3s;
+    color: #ffffff;
+}
+
+.custom-close-btn {
+    position: absolute ;
+    top: 15px;
+    right: 20px;
+    font-size: 30px;
+    color: #ccc;
+    cursor: pointer;
+    transition: color 0.2s;
+    
+    height: 25px;
+    width: 25px;
+    border-radius: 2px;
+    
+    
+    
+    
+}
+
+.custom-close-btn:hover {
+    color: #ffffff;
+}
+
+.custom-modal h2 {
+    font-size: 24px;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: "Balsamiq Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+#customContactForm {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#customContactForm label {
+    font-size: 16px;
+    font-family: "Balsamiq Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #cfd8e4;
+}
+
+#customContactForm input[type="text"],
+#customContactForm input[type="email"],
+#customContactForm textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #43516e;
+    background-color: #0c1427;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #ffffff;
+    font-family: "Balsamiq Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    resize: none;
+}
+
+#customContactForm input[type="text"]:focus,
+#customContactForm input[type="email"]:focus,
+#customContactForm textarea:focus {
+    border-color: #436192;
+    outline: none;
+    box-shadow: 0 0 5px rgba(67, 97, 146, 0.4);
+}
+
+#customContactForm textarea {
+    min-height: 100px;
+}
+
+.submit-btn {
+    background-color: #436192;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    font-family: "Balsamiq Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.submit-btn:hover {
+    background-color: #354d72;
+}
+
+
+
+
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+
+
+
